@@ -31,13 +31,11 @@ async function main() {
   await approveTx.wait();
   console.log("Approved:", amount.toString());
 
-
   const allowance = await token.allowance(
     signer.address,
     CALLER_ADDRESS
   );
   console.log("Allowance:", allowance.toString());
-
 
   const tx = await tokenCaller.transferToken(
     TOKEN_ADDRESS,

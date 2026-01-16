@@ -12,13 +12,10 @@ contract TokenCaller {
     {
         return IERC20(token).balanceOf(user);
     }
-    function transferToken(
-    address token,
-    address to,
-    uint256 amount
-) external {
-    IERC20(token).transferFrom(msg.sender, to, amount);
-}
+
+    function transferToken(    address token,    address to,    uint256 amount) external {
+        IERC20(token).transferFrom(msg.sender, to, amount);
+    }
 }
 
 

@@ -1,0 +1,144 @@
+// // pragma solidity ^0.8.28;
+
+// // contract LoadTestingV2 {
+
+// //     uint256[10] public counters;
+
+// //     event CounterIncreased(uint256 indexed counterId, uint256 newValue);
+
+// //     function incCounter1() public {
+// //         counters[0]++;
+// //         emit CounterIncreased(1, counters[0]);
+// //     }
+
+// //     function incCounter2() public {
+// //         counters[1]++;
+// //         emit CounterIncreased(2, counters[1]);
+// //     }
+
+// //     function incCounter3() public {
+// //         counters[2]++;
+// //         emit CounterIncreased(3, counters[2]);
+// //     }
+
+// //     function incCounter4() public {
+// //         counters[3]++;
+// //         emit CounterIncreased(4, counters[3]);
+// //     }
+
+// //     function incCounter5() public {
+// //         counters[4]++;
+// //         emit CounterIncreased(5, counters[4]);
+// //     }
+
+// //     function incCounter6() public {
+// //         counters[5]++;
+// //         emit CounterIncreased(6, counters[5]);
+// //     }
+
+// //     function incCounter7() public {
+// //         counters[6]++;
+// //         emit CounterIncreased(7, counters[6]);
+// //     }
+
+// //     function incCounter8() public {
+// //         counters[7]++;
+// //         emit CounterIncreased(8, counters[7]);
+// //     }
+
+// //     function incCounter9() public {
+// //         counters[8]++;
+// //         emit CounterIncreased(9, counters[8]);
+// //     }
+
+// //     function incCounter10() public {
+// //         counters[9]++;
+// //         emit CounterIncreased(10, counters[9]);
+// //     }
+// // }
+
+
+// // SPDX-License-Identifier: MIT
+// pragma solidity ^0.8.28;
+// contract LoadTestingV2 {
+
+//     uint256 public a = 0;
+//     event IncCounter1(uint256);
+//     function incCounter1() public {
+//         a = a + 1;
+//         emit IncCounter1(a);
+//     }
+
+//     uint256 public b = 0;
+//     event IncCounter2(uint256);
+//     function incCounter2() public {
+//         b = b + 1;
+//         emit IncCounter2(b);
+//     }
+
+//     uint256 public c = 0;
+//     event IncCounter3(uint256);
+//     function incCounter3() public {
+//         c = c + 1;
+//         emit IncCounter3(c);
+//     }
+
+//     uint256 public d = 0;
+//     event IncCounter4(uint256);
+//     function incCounter4() public {
+//         d = d + 1;
+//         emit IncCounter4(d);
+//     }
+
+//     uint256 public e = 0;
+//     event IncCounter5(uint256);
+//     function incCounter5() public {
+//         e = e + 1;
+//         emit IncCounter5(e);
+//     }
+
+//     uint256 public f = 0;
+//     event IncCounter6(uint256);
+//     function incCounter6() public {
+//         f = f + 1;
+//         emit IncCounter6(f);
+//     }
+
+//     uint256 public g = 0;
+//     event IncCounter7(uint256);
+//     function incCounter7() public {
+//         g = g + 1;
+//         emit IncCounter7(g);
+//     }
+
+//     uint256 public h = 0;
+//     event IncCounter8(uint256);
+//     function incCounter8() public {
+//         h = h + 1;
+//         emit IncCounter8(h);
+//     }
+
+//     uint256 public i = 0;
+//     event IncCounter9(uint256);
+//     function incCounter9() public {
+//         i = i + 1;
+//         emit IncCounter9(i);
+//     }
+
+//     uint256 public j = 0;
+//     event IncCounter10(uint256);
+//     function incCounter10() public {
+//         j = j + 1;
+//         emit IncCounter10(j);
+//     }
+
+// }
+// pragma solidity ^0.8.20;
+
+// contract LoadTestingV2 {
+//     event MessageSent(address indexed sender, string message);
+
+//     function sendMessage(string calldata message) external {
+//         emit MessageSent(msg.sender, message);
+//     }
+// }
