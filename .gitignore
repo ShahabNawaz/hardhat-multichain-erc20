@@ -18,3 +18,6 @@
 
 # Hardhat coverage reports
 /coverage
+hardhat.config.js
+Dockerfile
+.env
